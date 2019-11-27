@@ -1,9 +1,9 @@
 {
-  "name": "jest-example",
+  "name": "jest-esm-example",
   "private": true,
   "version": "0.0.0",
   "description": "An example of testing native web components with Jest",
-  "main": "src/truncated-number.mjs",
+  "main": "src/truncated-number.js",
   "scripts": {
     "build": "mkdir -p demo/dist && cp -r src/ demo/dist/",
     "start": "npm run build && ws --directory ./demo --hostname localhost --port 3000",
