@@ -5,7 +5,7 @@
   "description": "An example of testing native web components with Jest",
   "main": "src/truncated-number.mjs",
   "scripts": {
-    "build": "webpack",
+    "build": "rollup -c",
     "start": "ws --directory ./demo --hostname localhost --port 3000",
     "test": "jest ./src --config=jest.config.js"
   },
@@ -14,11 +14,8 @@
   "devDependencies": {
     "@babel/core": "7.7.4",
     "@babel/preset-env": "7.7.4",
-    "babel-jest": "24.9.0",
-    "babel-loader": "8.0.6",
     "jest": "24.9.0",
     "local-web-server": "3.0.7",
-    "webpack": "4.41.2",
-    "webpack-cli": "3.3.10"
+    "rollup": "1.27.5"
   }
 }
