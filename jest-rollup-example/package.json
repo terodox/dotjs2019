@@ -6,7 +6,7 @@
   "main": "src/truncated-number.mjs",
   "scripts": {
     "build": "rollup -c",
-    "start": "ws --directory ./demo --hostname localhost --port 3000",
+    "start": "npm run build && ws --directory ./demo --hostname localhost --port 3000",
     "test": "jest ./src --config=jest.config.js"
   },
   "author": "Andy Desmarais <terodox@gmail.com>",
