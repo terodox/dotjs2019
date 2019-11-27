@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Truncated Number Web Component</title>
+        <script src="dist/truncated-number.js" type="module"></script>
+
+        <style>
+            .originalNumber::after {
+                content: ' => ';
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Truncated Number Web Component</h1>
+        <div>
+            <span class="originalNumber">10000000</span><truncated-number data-number="10000000"></truncated-number>
+        </div>
+        <div>
+            <span class="originalNumber">100000</span><truncated-number data-number="100000"></truncated-number>
+        </div>
+        <div>
+            <span class="originalNumber">1000</span><truncated-number data-number="1000"></truncated-number>
+        </div>
+        <div>
+            <span class="originalNumber">100</span><truncated-number data-number="100"></truncated-number>
+        </div>
+    </body>
+</html>
