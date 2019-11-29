@@ -1,11 +1,11 @@
 {
-  "name": "mocha-esm-example",
+  "name": "mocha-webpack-example",
   "private": true,
   "version": "0.0.0",
   "description": "An example of testing native web components with Jest",
   "main": "src/truncated-number.js",
   "scripts": {
-    "build": "mkdir -p demo/dist && cp -r src/ demo/dist/",
+    "build": "webpack",
     "start": "npm run build && ws --directory ./demo --hostname localhost --port 3000",
     "test": "mocha ./src/**/*.spec.js -r esm"
   },
@@ -18,6 +18,8 @@
     "local-web-server": "3.0.7",
     "mocha": "6.2.2",
     "mock-require": "3.0.3",
-    "sinon": "7.5.0"
+    "sinon": "7.5.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10"
   }
 }
