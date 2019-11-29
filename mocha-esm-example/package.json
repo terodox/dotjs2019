@@ -6,7 +6,8 @@
   "main": "src/truncated-number.js",
   "scripts": {
     "build": "mkdir -p demo/dist && cp -r src/ demo/dist/",
-    "start": "npm run build && ws --directory ./demo --hostname localhost --port 3000",
+    "clean": "rm -rf demo/dist",
+    "start": "npm run clean && npm run build && ws --directory ./demo --hostname localhost --port 3000",
     "test": "mocha ./src/**/*.spec.js -r esm"
   },
   "author": "Andy Desmarais <terodox@gmail.com>",
