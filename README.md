@@ -1,13 +1,38 @@
 # dotjs2019
 
-Hello! Thanks for taking an interest in my talk!
+## How to use this repo
 
-This repo serves as a set of examples around testing native Web Components with different testing frameworks.
+This repo is filled with example projects that use different testing frameworks and build systems. I tried to hit the more popular options for both testing and building.
 
-I've included examples that use different build systems as well in an attempt to cover as many common use cases as I can.
+If I missed your framework or build system, please open a PR! I welcome additional contributions!
 
-The folders are named with the testing framework and build tooling, and are hopefully self explanatory.
+### Commands to get a project running
+
+Start by navigating into a sub-folder:
+
+```bash
+cd jest-webpack
+```
+
+Then run the following commands:
+
+```bash
+npm ci
+npm start
+```
+
+This will start a webserver at http://localhost:3000 that will show an example usage of the web component in action.
+
+If you want to run the tests, simply run:
+
+```bash
+npm test
+```
+
+If you run into any trouble, feel free to open an issue, and I'll do my best to help!
 
 ## Slides
 
-The slides for my presentation are also here in case you want to review them!
+This repository was created as a part of a lightning talk at dotJs Paris.
+
+[The slides](dotjs2019.pdf) from the presentation are available in case you want to review them!

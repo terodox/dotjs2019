@@ -1,0 +1,22 @@
+{
+  "name": "jest-rollup-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "An example of testing native web components with Jest",
+  "main": "src/truncated-number.js",
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "rm -rf demo/dist",
+    "start": "npm run clean && npm run build && ws --directory ./demo --hostname localhost --port 3000",
+    "test": "jest ./src --config=jest.config.js"
+  },
+  "author": "Andy Desmarais <terodox@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.7.4",
+    "@babel/preset-env": "7.7.4",
+    "jest": "24.9.0",
+    "local-web-server": "3.0.7",
+    "rollup": "1.27.5"
+  }
+}
