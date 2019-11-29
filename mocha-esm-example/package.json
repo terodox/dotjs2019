@@ -1,0 +1,23 @@
+{
+  "name": "jasmine-esm-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "An example of testing native web components with Jest",
+  "main": "src/truncated-number.js",
+  "scripts": {
+    "build": "mkdir -p demo/dist && cp -r src/ demo/dist/",
+    "start": "npm run build && ws --directory ./demo --hostname localhost --port 3000",
+    "test": "mocha ./src/**/*.spec.js -r esm"
+  },
+  "author": "Andy Desmarais <terodox@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "esm": "3.2.25",
+    "jsdom": "15.2.1",
+    "local-web-server": "3.0.7",
+    "mocha": "6.2.2",
+    "mock-require": "3.0.3",
+    "sinon": "7.5.0"
+  }
+}

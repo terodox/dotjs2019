@@ -1,6 +1,6 @@
 # dotjs2019
 
-Hello! Thanks for taking an interest in my talk!
+Hello! Thanks for taking an interest in unit testing native web components!!
 
 This repo serves as a set of examples around testing native Web Components with different testing frameworks.
 
@@ -10,4 +10,4 @@ The folders are named with the testing framework and build tooling, and are hope
 
 ## Slides
 
-The slides for my presentation are also here in case you want to review them!
+[The slides](dotjs2019.pdf) from the presentation are also here in case you want to review them!
