@@ -1,5 +1,11 @@
 # dotjs2019
 
+## Slides
+
+This repository was created as a part of a lightning talk at dotJs Paris.
+
+[The slides](dotjs2019.pdf) from the presentation are available in case you want to review them!
+
 ## How to use this repo
 
 This repo is filled with example projects that use different testing frameworks and build systems. I tried to hit the more popular options for both testing and building.
@@ -30,9 +36,3 @@ npm test
 ```
 
 If you run into any trouble, feel free to open an issue, and I'll do my best to help!
-
-## Slides
-
-This repository was created as a part of a lightning talk at dotJs Paris.
-
-[The slides](dotjs2019.pdf) from the presentation are available in case you want to review them!
