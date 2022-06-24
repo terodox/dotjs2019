@@ -15,7 +15,7 @@
   "devDependencies": {
     "chai": "4.2.0",
     "esm": "3.2.25",
-    "jsdom": "15.2.1",
+    "jsdom": "16.5.0",
     "local-web-server": "3.0.7",
     "mocha": "6.2.2",
     "mock-require": "3.0.3",
