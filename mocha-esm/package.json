@@ -17,7 +17,7 @@
     "esm": "3.2.25",
     "jsdom": "15.2.1",
     "local-web-server": "3.0.7",
-    "mocha": "6.2.2",
+    "mocha": "10.1.0",
     "mock-require": "3.0.3",
     "sinon": "7.5.0"
   }
