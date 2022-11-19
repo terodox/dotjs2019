@@ -20,6 +20,6 @@
     "jest": "24.9.0",
     "local-web-server": "3.0.7",
     "webpack": "4.41.2",
-    "webpack-cli": "3.3.10"
+    "webpack-cli": "3.3.12"
   }
 }
